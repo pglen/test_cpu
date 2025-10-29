@@ -48331,7 +48331,7 @@
             "cell_module_not_derived": "00000000000000000000000000000001",
             "cell_src": "src/top.v:109.11-109.27",
             "module": "miniclock",
-            "module_src": "src/miniclock.v:3.1-27.10"
+            "module_src": "src/miniclock.v:5.1-29.10"
           },
           "port_directions": {
           },
@@ -48345,7 +48345,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48367,7 +48367,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48389,7 +48389,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48412,7 +48412,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48438,7 +48438,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48461,7 +48461,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48487,7 +48487,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48510,7 +48510,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48536,7 +48536,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48559,7 +48559,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48585,7 +48585,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48608,7 +48608,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48634,7 +48634,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48657,7 +48657,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48683,7 +48683,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48706,7 +48706,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48732,7 +48732,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48755,7 +48755,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48781,7 +48781,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48804,7 +48804,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48830,7 +48830,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48853,7 +48853,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48880,7 +48880,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48906,7 +48906,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48928,7 +48928,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -48951,7 +48951,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -48977,7 +48977,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49000,7 +49000,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49026,7 +49026,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49049,7 +49049,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49075,7 +49075,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49098,7 +49098,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49124,7 +49124,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49147,7 +49147,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49173,7 +49173,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49196,7 +49196,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49222,7 +49222,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49245,7 +49245,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49271,7 +49271,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49294,7 +49294,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49320,7 +49320,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49343,7 +49343,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49369,7 +49369,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49392,7 +49392,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49419,7 +49419,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49445,7 +49445,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49467,7 +49467,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49490,7 +49490,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49516,7 +49516,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49539,7 +49539,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49566,7 +49566,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49592,7 +49592,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49634,7 +49634,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49660,7 +49660,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49683,7 +49683,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49709,7 +49709,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49732,7 +49732,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49758,7 +49758,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49781,7 +49781,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49807,7 +49807,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49830,7 +49830,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49856,7 +49856,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49879,7 +49879,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49905,7 +49905,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:31.7-31.59"
           },
           "port_directions": {
             "CLK": "input",
@@ -49928,7 +49928,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49955,7 +49955,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -49981,7 +49981,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:15.1-23.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:67.8-67.66"
+            "src": "src/miniclock.v:17.1-25.4|/usr/local/bin/../share/yosys/gowin/cells_map.v:67.8-67.66"
           },
           "port_directions": {
             "CE": "input",
@@ -50006,7 +50006,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50033,7 +50033,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50060,7 +50060,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50087,7 +50087,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50114,7 +50114,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50141,7 +50141,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50168,7 +50168,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50195,7 +50195,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50222,7 +50222,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50249,7 +50249,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50276,7 +50276,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50303,7 +50303,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50330,7 +50330,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50357,7 +50357,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50384,7 +50384,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50411,7 +50411,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50438,7 +50438,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50465,7 +50465,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50492,7 +50492,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50519,7 +50519,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50546,7 +50546,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50573,7 +50573,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50600,7 +50600,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50627,7 +50627,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50654,7 +50654,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50681,7 +50681,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50708,7 +50708,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50735,7 +50735,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -50762,7 +50762,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5"
           },
           "port_directions": {
             "CIN": "input",
@@ -105975,7 +105975,7 @@
           "bits": [ 22 ],
           "attributes": {
             "hdlname": "mc clk",
-            "src": "src/miniclock.v:5.11-5.14"
+            "src": "src/miniclock.v:7.11-7.14"
           }
         },
         "mc.clockCounter": {
@@ -105983,7 +105983,7 @@
           "bits": [ 2002, 2000, 1997, 1991, 1988, 1985, 1982, 1979, 1976, 1973, 1970, 1967, 1964, 1957, 1954, 1951, 1948, 1945, 1942, 1939, 1936, 1933, 1929, 2022, 2019, 2016, 2013, 2010, 2007, 1995, 1962, 1927, 1924 ],
           "attributes": {
             "hdlname": "mc clockCounter",
-            "src": "src/miniclock.v:12.12-12.24"
+            "src": "src/miniclock.v:14.12-14.24"
           }
         },
         "mc.clockCounter_DFFR_Q_10_D": {
@@ -105997,7 +105997,7 @@
           "bits": [ 1931 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_11_D": {
@@ -106011,7 +106011,7 @@
           "bits": [ 1930 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_12_D": {
@@ -106025,7 +106025,7 @@
           "bits": [ 1934 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_13_D": {
@@ -106039,7 +106039,7 @@
           "bits": [ 1937 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_14_D": {
@@ -106053,7 +106053,7 @@
           "bits": [ 1940 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_15_D": {
@@ -106067,7 +106067,7 @@
           "bits": [ 1943 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_16_D": {
@@ -106081,7 +106081,7 @@
           "bits": [ 1946 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_17_D": {
@@ -106095,7 +106095,7 @@
           "bits": [ 1949 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_18_D": {
@@ -106109,7 +106109,7 @@
           "bits": [ 1952 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_19_D": {
@@ -106123,7 +106123,7 @@
           "bits": [ 1955 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_1_D": {
@@ -106137,7 +106137,7 @@
           "bits": [ 1960 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_20_D": {
@@ -106151,7 +106151,7 @@
           "bits": [ 1958 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_21_D": {
@@ -106165,7 +106165,7 @@
           "bits": [ 1965 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_22_D": {
@@ -106179,7 +106179,7 @@
           "bits": [ 1968 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_23_D": {
@@ -106193,7 +106193,7 @@
           "bits": [ 1971 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_24_D": {
@@ -106207,7 +106207,7 @@
           "bits": [ 1974 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_25_D": {
@@ -106221,7 +106221,7 @@
           "bits": [ 1977 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_26_D": {
@@ -106235,7 +106235,7 @@
           "bits": [ 1980 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_27_D": {
@@ -106249,7 +106249,7 @@
           "bits": [ 1983 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_28_D": {
@@ -106263,7 +106263,7 @@
           "bits": [ 1986 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_29_D": {
@@ -106277,7 +106277,7 @@
           "bits": [ 1989 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_2_D": {
@@ -106291,7 +106291,7 @@
           "bits": [ 1959 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_30_D": {
@@ -106305,7 +106305,7 @@
           "bits": [ 1992 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_31_D": {
@@ -106319,7 +106319,7 @@
           "bits": [ 2001 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_31_D_ALU_SUM_CIN_ALU_COUT_SUM": {
@@ -106334,7 +106334,7 @@
           "bits": [ 1998 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_32_D": {
@@ -106354,7 +106354,7 @@
           "bits": [ 1993 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_4_D": {
@@ -106368,7 +106368,7 @@
           "bits": [ 2005 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_5_D": {
@@ -106382,7 +106382,7 @@
           "bits": [ 2008 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_6_D": {
@@ -106396,7 +106396,7 @@
           "bits": [ 2011 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_7_D": {
@@ -106410,7 +106410,7 @@
           "bits": [ 2014 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_8_D": {
@@ -106424,7 +106424,7 @@
           "bits": [ 2017 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_9_D": {
@@ -106438,7 +106438,7 @@
           "bits": [ 2020 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockCounter_DFFR_Q_D": {
@@ -106452,7 +106452,7 @@
           "bits": [ 2023 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:21.25-21.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29",
+            "src": "src/miniclock.v:23.25-23.41|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29",
             "unused_bits": "0 "
           }
         },
@@ -106461,7 +106461,7 @@
           "bits": [ 1921 ],
           "attributes": {
             "hdlname": "mc clockx",
-            "src": "src/miniclock.v:13.5-13.11"
+            "src": "src/miniclock.v:15.5-15.11"
           }
         },
         "mc.clockx_DFFSE_Q_CE": {
@@ -106469,7 +106469,7 @@
           "bits": [ 1925 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN": {
@@ -106477,7 +106477,7 @@
           "bits": [ 2025 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106485,7 +106485,7 @@
           "bits": [ 2027 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106493,7 +106493,7 @@
           "bits": [ 2029 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106501,7 +106501,7 @@
           "bits": [ 2031 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106509,7 +106509,7 @@
           "bits": [ 2033 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106517,7 +106517,7 @@
           "bits": [ 2035 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106525,7 +106525,7 @@
           "bits": [ 2037 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106533,7 +106533,7 @@
           "bits": [ 2039 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106541,7 +106541,7 @@
           "bits": [ 2041 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106549,7 +106549,7 @@
           "bits": [ 2043 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106557,7 +106557,7 @@
           "bits": [ 2045 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106565,7 +106565,7 @@
           "bits": [ 2047 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106573,7 +106573,7 @@
           "bits": [ 2049 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106581,7 +106581,7 @@
           "bits": [ 2051 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106589,7 +106589,7 @@
           "bits": [ 2053 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106597,7 +106597,7 @@
           "bits": [ 2055 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106605,7 +106605,7 @@
           "bits": [ 2057 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106613,7 +106613,7 @@
           "bits": [ 2059 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106621,7 +106621,7 @@
           "bits": [ 2061 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106629,7 +106629,7 @@
           "bits": [ 2063 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106637,7 +106637,7 @@
           "bits": [ 2065 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106645,7 +106645,7 @@
           "bits": [ 2067 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106653,7 +106653,7 @@
           "bits": [ 2069 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106661,7 +106661,7 @@
           "bits": [ 2071 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106669,7 +106669,7 @@
           "bits": [ 2073 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106677,7 +106677,7 @@
           "bits": [ 2075 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106685,7 +106685,7 @@
           "bits": [ 2077 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN": {
@@ -106693,7 +106693,7 @@
           "bits": [ 2079 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "src/miniclock.v:16.9-16.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
+            "src": "src/miniclock.v:18.9-18.34|/usr/local/bin/../share/yosys/gowin/arith_map.v:57.7-63.5|/usr/local/bin/../share/yosys/gowin/cells_sim.v:938.25-938.29"
           }
         },
         "mc.clockx_DFFSE_Q_CE_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_CIN_ALU_COUT_SUM": {
@@ -106910,7 +106910,7 @@
           "bits": [ 1921 ],
           "attributes": {
             "hdlname": "mc pulsex",
-            "src": "src/miniclock.v:6.12-6.18"
+            "src": "src/miniclock.v:8.12-8.18"
           }
         },
         "pixelAddress": {

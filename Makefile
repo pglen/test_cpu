@@ -41,12 +41,12 @@ git:
 
 # Synthesis
 $(TARGET).json: $(FILES)
-	$(YOSYS) -p   "read_verilog $(FILES); \
+	$(YOSYS) -q -p  "read_verilog $(FILES); \
                 synth_gowin -json $(TARGET).json ; "
 
 # Place and Route
 $(TARGET)_pnr.json: $(TARGET).json
-	$(NEXPR) --json $(TARGET).json --freq 27 --write $(TARGET)_pnr.json \
+	$(NEXPR) -q --json $(TARGET).json --freq 27 --write $(TARGET)_pnr.json \
 	--device ${DEVICE} --vopt family=${FAMILY} --vopt cst=${CST}.cst
 
 # Generate Bitstream

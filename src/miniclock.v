@@ -1,5 +1,7 @@
 `default_nettype none
 
+// This will wiggle pulsex line with 10 Hz
+
 module miniclock
 (
     input clk,
