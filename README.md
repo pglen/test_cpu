@@ -1,4 +1,4 @@
-# GOWIN open source tool test
+# FPGA open source tool test for Tang Nano 9k
 
   This is a makefile based FPGA design example for the gowin FPGA
 that is on borar of the tang nano 9k.
@@ -27,14 +27,16 @@ time installing dependencies, some of which I compiled from source.
 ## Make detils:
 
  I elected to include the wildcard feature of the makefile. This grabs
-all the .v files in the ource directory. If a .v file is to be excluded,
+all the .v files in the source directory. If a .v file is to be excluded,
 add it to the "EXCLUDE=" line. (note the wild card here is '%')
+
+ ## References:
+
+    [1.](https://learn.lushaylabs.com/tang-nano-series/)
+    [2.](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/picorv)
 
 ## The power of open source.
 
  Creating a new FPGA fabric can be as simple as typing 'make'
 
- ## Refernces:
-
-    https://learn.lushaylabs.com/tang-nano-series/
-    https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/picorv
+// # EOF
