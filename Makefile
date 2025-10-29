@@ -19,8 +19,9 @@ help:
 	@echo "    list        -   List 'v' files "
 	@echo "    syn         -   Synthesize "
 	@echo "    clean       -   Clean intermediaries"
+	@echo "    git         -   Check in to git "
 	@echo "    load        -   Load to chip memory "
-	@echo "    loadflash   -   Load to cip flash "
+	@echo "    loadflash   -   Load to chip flash "
 
 list:
 	@echo $(FILES)
@@ -33,9 +34,14 @@ clean:
 	@rm -f $(TARGET).json
 	@rm -f $(TARGET)_pnr.json
 
+git:
+	git add .
+	git commit -m autocommit
+	git push
+
 # Synthesis
 $(TARGET).json: $(FILES)
-	yosys -p   "read_verilog $(FILES); \
+	$(YOSYS) -p   "read_verilog $(FILES); \
                 synth_gowin -json $(TARGET).json ; "
 
 # Place and Route

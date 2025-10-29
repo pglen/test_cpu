@@ -6,6 +6,7 @@ DEVICE=GW1NR-LV9QN88PC6/I5
 GWPACK=gowin_pack
 NEXPR=nextpnr-himbaechel
 LOADER=openFPGALoader
+YOSYS=yosys
 
 VFILES=$(wildcard src/*.v)
 
