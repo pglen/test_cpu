@@ -1,19 +1,20 @@
 # FPGA open source tool test for Tang Nano 9k
 
   This is a makefile based FPGA design example for the gowin FPGA
-that is on borar of the tang nano 9k.
+that is on board of the Tang Nano 9k.
 
 ## The tools used:
 
-    GWPACK=gowin_pack
-    NEXPR=nextpnr-himbaechel
-    LOADER=openFPGALoader
-    YOSYS=yosys
+    GWPACK = gowin_pack
+    NEXPR = nextpnr-himbaechel
+    LOADER = openFPGALoader
+    YOSYS = yosys
 
- The makefile include (make.mk) contains the macros of the FPGA program names.
+ The Makefile include (make.mk) contains the macros of the FPGA program names.
 The installation of the tools are not trivial, I had to spend quite a bit of
 time installing dependencies, some of which I compiled from source.
-(the program pytrellis was compiled from source and difficult to install)
+(in particular the program pytrellis was compiled from source and
+was difficult to install)
 
 ### Make targets:
 
@@ -26,7 +27,7 @@ time installing dependencies, some of which I compiled from source.
 
 ## Make detils:
 
- I elected to include the wildcard feature of the makefile. This grabs
+ I elected to include the wild card feature of the Makefile. This grabs
 all the .v files in the source directory. If a .v file is to be excluded,
 add it to the "EXCLUDE=" line. (note the wild card here is '%')
 
