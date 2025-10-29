@@ -28,8 +28,8 @@ was difficult to install)
 ## Make detils:
 
  I elected to include the wild card feature of the Makefile. This grabs
-all the .v files in the source directory. If a .v file is to be excluded,
-add it to the "EXCLUDE=" line. (note the wild card here is '%')
+all the .v files in the source (src/) directory. If a .v file is to
+be excluded, add it to the "EXCLUDE=" line. (note the wild card here is '%')
 
 ## Sample session:
 
@@ -62,5 +62,9 @@ building blocks that can be useful in any project.
 ## The power of open source.
 
  Creating a new FPGA fabric can be as simple as typing 'make'
+
+## Copying:
+
+ This code is declared open source.
 
 // # EOF
