@@ -1,6 +1,8 @@
 `default_nettype none
 
-module monost
+module monost  #  (
+    parameter WAIT_TIME   = 3500000
+)
 (
     input clk,
     input trigx,
@@ -8,8 +10,9 @@ module monost
 );
 
 //localparam WAIT_TIME = 13500000;
-localparam WAIT_TIME   = 3500000;
+//localparam WAIT_TIME   = 3500000;
 //localparam WAIT_TIME = 7500000;
+
 reg [23:0] clockCounter = 0;
 reg trig2 = 0;
 

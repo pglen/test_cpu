@@ -104,6 +104,10 @@ module top
 
 monost st(clk, trig, led[4]);
 
+monost  #(.WAIT_TIME(7500000)
+        )
+        st2 (clk, trig, led[3]);
+
 wire pulse = 0;
 
 miniclock mc (clk, led[5]);

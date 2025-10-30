@@ -9,13 +9,14 @@ module uart_top(
     output                       trig
 );
 
-parameter                        CLK_FRE  = 27;//Mhz
-parameter                        UART_FRE = 115200;//Mhz
+parameter                        CLK_FRE  = 27;         // Mhz
+parameter                        UART_FRE = 115200;     // Baud
 localparam                       IDLE =  0;
-localparam                       SEND =  1;   //send
-localparam                       WAIT =  2;   //wait 1 second and send uart received data
+localparam                       SEND =  1;         // Send
+localparam                       WAIT =  2;         // Wait 1 second and send uart received data
 reg[7:0]                         tx_data;
-reg[7:0]                         tx_str;
+reg[7:0]
+tx_str;
 reg                              tx_data_valid;
 wire                             tx_data_ready;
 reg[7:0]                         tx_cnt;
@@ -25,7 +26,7 @@ wire                             rx_data_ready;
 reg[31:0]                        wait_cnt;
 reg[3:0]                         state;
 
-assign rx_data_ready = 1'b1;//always can receive data,
+assign rx_data_ready = 1'b1;    //always allow receive data,
 
 always@(posedge clk or negedge rst_n)
 begin
@@ -48,9 +49,9 @@ begin
 
 			if(tx_data_valid == 1'b1 && tx_data_ready == 1'b1 && tx_cnt < DATA_NUM - 1)//Send 12 bytes data
 			begin
-				tx_cnt <= tx_cnt + 8'd1; //Send data counter
+				tx_cnt <= tx_cnt + 8'd1; // Send data counter
 			end
-			else if(tx_data_valid && tx_data_ready)//last byte sent is complete
+			else if(tx_data_valid && tx_data_ready) // last byte sent is complete
 			begin
 				tx_cnt <= 8'd0;
 				tx_data_valid <= 1'b0;
@@ -84,13 +85,22 @@ end
 
 parameter 	ENG_NUM  = 18 + 1;
 parameter 	DATA_NUM = ENG_NUM + 1;
-wire [ DATA_NUM * 8 - 1:0] send_data = {"Hello Tang Nano 9K",16'h0d0a};
 
-wire done = 0;
+//wire [ DATA_NUM * 8 - 1:0] send_data = {"Hello Tang Nano 9K",16'h0d0a};
+//reg [ DATA_NUM * 8 - 1:0] send_data = {"Hello Tang Nano 9K",16'h0d0a};
+reg [ DATA_NUM * 8 - 1:0] mystr =  {"hello tang nano 9K\r\n"};
+//reg [7:0] mystr [0 : DATA_NUM] =  {"hello tang nano 9K\r\n"};
+
+reg [7:0] buffer [64:0] ;
+
+reg done = 0;
 
 always@(*) begin
     //if (done == 1'b0) begin
-        tx_str <= send_data[(DATA_NUM - 1 - tx_cnt) * 8 +: 8];
+        tx_str <= 8'b0;
+        //tx_str <= send_data[(DATA_NUM - 1 - tx_cnt) * 8 +: 8];
+        //tx_str <= mystr[(DATA_NUM - 1 - tx_cnt) * 8 +: 8];
+        //tx_str <= mystr[tx_cnt];
     //    done <= 1'b1;
     //end
 end
@@ -109,7 +119,7 @@ uart_rx#
 	.rx_data_valid              (rx_data_valid            ),
 	.rx_data_ready              (rx_data_ready            ),
 	.rx_pin                     (uart_rx                  ),
-    .led                        (trig                     )
+    .led_out                    (trig                     )
 );
 
 uart_tx#

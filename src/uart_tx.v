@@ -5,26 +5,27 @@ module uart_tx
 )
 (
 	input                        clk,              //clock input
-	input                        rst_n,            //asynchronous reset input, low active 
+	input                        rst_n,            //asynchronous reset input, low active
 	input[7:0]                   tx_data,          //data to send
 	input                        tx_data_valid,    //data to be sent is valid
 	output reg                   tx_data_ready,    //send ready
 	output                       tx_pin            //serial data output
 );
-//calculates the clock cycle for baud rate 
+// calculates the clock cycle for baud rate
 localparam                       CYCLE = CLK_FRE * 1000000 / BAUD_RATE;
-//state machine code
-localparam                       S_IDLE       = 1;
-localparam                       S_START      = 2;//start bit
-localparam                       S_SEND_BYTE  = 3;//data bits
-localparam                       S_STOP       = 4;//stop bit
+localparam                       S_IDLE       = 1;  // state machine code
+localparam                       S_START      = 2;  // start bit
+localparam                       S_SEND_BYTE  = 3;  // data bits
+localparam                       S_STOP       = 4;  // stop bit
 reg[2:0]                         state;
 reg[2:0]                         next_state;
-reg[15:0]                        cycle_cnt; //baud counter
-reg[2:0]                         bit_cnt;//bit counter
-reg[7:0]                         tx_data_latch; //latch data to send
-reg                              tx_reg; //serial data output
+reg[15:0]                        cycle_cnt;         // baud counter
+reg[2:0]                         bit_cnt;           // bit counter
+reg[7:0]                         tx_data_latch;     // latch data to send
+reg                              tx_reg;            // serial data output
+
 assign tx_pin = tx_reg;
+
 always@(posedge clk or negedge rst_n)
 begin
 	if(rst_n == 1'b0)
@@ -60,6 +61,7 @@ begin
 			next_state <= S_IDLE;
 	endcase
 end
+
 always@(posedge clk or negedge rst_n)
 begin
 	if(rst_n == 1'b0)
@@ -75,7 +77,6 @@ begin
 			tx_data_ready <= 1'b1;
 end
 
-
 always@(posedge clk or negedge rst_n)
 begin
 	if(rst_n == 1'b0)
@@ -84,7 +85,7 @@ begin
 		end
 	else if(state == S_IDLE && tx_data_valid == 1'b1)
 			tx_data_latch <= tx_data;
-		
+
 end
 
 always@(posedge clk or negedge rst_n)
@@ -110,7 +111,7 @@ begin
 	else if((state == S_SEND_BYTE && cycle_cnt == CYCLE - 1) || next_state != state)
 		cycle_cnt <= 16'd0;
 	else
-		cycle_cnt <= cycle_cnt + 16'd1;	
+		cycle_cnt <= cycle_cnt + 16'd1;
 end
 
 always@(posedge clk or negedge rst_n)
@@ -120,14 +121,14 @@ begin
 	else
 		case(state)
 			S_IDLE,S_STOP:
-				tx_reg <= 1'b1; 
+				tx_reg <= 1'b1;
 			S_START:
-				tx_reg <= 1'b0; 
+				tx_reg <= 1'b0;
 			S_SEND_BYTE:
 				tx_reg <= tx_data_latch[bit_cnt];
 			default:
-				tx_reg <= 1'b1; 
+				tx_reg <= 1'b1;
 		endcase
 end
 
-endmodule 
+endmodule
