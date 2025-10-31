@@ -5,7 +5,6 @@ module uart_top(
 	input                        rst_n,
 	input                        uart_rx,
 	output                       uart_tx,
-    //output         [1:0]       led
     output                       trig
 );
 
@@ -20,6 +19,7 @@ tx_str;
 reg                              tx_data_valid;
 wire                             tx_data_ready;
 reg[7:0]                         tx_cnt;
+reg[7:0]                         tx_old;
 wire[7:0]                        rx_data;
 wire                             rx_data_valid;
 wire                             rx_data_ready;
@@ -34,7 +34,7 @@ begin
 	begin
 		wait_cnt <= 32'd0;
 		tx_data <= 8'd0;
-		state <= IDLE;
+ 		state <= IDLE;
 		tx_cnt <= 8'd0;
 		tx_data_valid <= 1'b0;
 	end
@@ -84,34 +84,32 @@ begin
 end
 
 parameter 	ENG_NUM  = 18 + 1;
-parameter 	DATA_NUM = ENG_NUM + 1;
+parameter 	DATA_NUM = ENG_NUM + 2;
 
-//wire [ DATA_NUM * 8 - 1:0] send_data = {"Hello Tang Nano 9K",16'h0d0a};
-//reg [ DATA_NUM * 8 - 1:0] send_data = {"Hello Tang Nano 9K",16'h0d0a};
-reg [ DATA_NUM * 8 - 1:0] mystr =  {"hello tang nano 9K\r\n"};
-//reg [7:0] mystr [0 : DATA_NUM] =  {"hello tang nano 9K\r\n"};
+reg [ DATA_NUM * 8 - 1:0] send_data = {"Hello Tang Nano 9K", 16'h0d};
+//reg [7:0] buffer [64:0] ;
+reg donex  = 1'b0;
 
-reg [7:0] buffer [64:0] ;
-
-reg done = 0;
-
-always@(*) begin
-    //if (done == 1'b0) begin
-        tx_str <= 8'b0;
-        //tx_str <= send_data[(DATA_NUM - 1 - tx_cnt) * 8 +: 8];
-        //tx_str <= mystr[(DATA_NUM - 1 - tx_cnt) * 8 +: 8];
-        //tx_str <= mystr[tx_cnt];
-    //    done <= 1'b1;
+//always@(*) begin
+always@(posedge clk) begin
+    //if (donex == 1'b0) begin
+        if (tx_old != tx_cnt) begin
+            tx_str <= send_data[(DATA_NUM - 1 - tx_cnt) * 8 +: 8];
+            tx_old = tx_cnt;
+            //if (tx_cnt >= DATA_NUM - 1) begin
+            //    tx_cnt = 1'b0;
+            //    donex = 1'b1;
+            //end
+        end
     //end
 end
 
 // -----------------------------------------------------------------------
 
-uart_rx#
-(
+uart_rx #(
 	.CLK_FRE(CLK_FRE),
 	.BAUD_RATE(UART_FRE)
-) uart_rx_inst
+    ) uart_rx_inst
 (
 	.clk                        (clk                      ),
 	.rst_n                      (rst_n                    ),
@@ -122,17 +120,17 @@ uart_rx#
     .led_out                    (trig                     )
 );
 
-uart_tx#
-(
+uart_tx # (
 	.CLK_FRE(CLK_FRE),
 	.BAUD_RATE(UART_FRE)
-) uart_tx_inst
+    ) uart_tx_inst
 (
 	.clk                        (clk                      ),
 	.rst_n                      (rst_n                    ),
 	.tx_data                    (tx_data                  ),
 	.tx_data_valid              (tx_data_valid            ),
 	.tx_data_ready              (tx_data_ready            ),
-	.tx_pin                     (uart_tx                  )
+	.tx_reg                     (uart_tx                  )
+//	.tx_pin                     (uart_tx                  )
 );
 endmodule

@@ -31,7 +31,7 @@ module top
 
     wire [5:0] led2;
     wire [5:0] led3;
-    led_counter cnt (clk, led[2:0]);
+    led_counter cnt (clk, btn1, led[2:0]);
 
     wire [9:0] pixelAddress;
     wire [7:0] textPixelData;
@@ -103,14 +103,10 @@ module top
     wire    trig;
 
 monost st(clk, trig, led[4]);
-
-monost  #(.WAIT_TIME(7500000)
+monost  # (.WAIT_TIME(7500000)
         )
         st2 (clk, trig, led[3]);
-
-wire pulse = 0;
-
-miniclock mc (clk, led[5]);
+miniclock mc (clk, btn1, led[5]);
 
 uart_top ut (
 	 clk,

@@ -9,7 +9,8 @@ module uart_tx
 	input[7:0]                   tx_data,          //data to send
 	input                        tx_data_valid,    //data to be sent is valid
 	output reg                   tx_data_ready,    //send ready
-	output                       tx_pin            //serial data output
+	//output                     tx_pin            //serial data output
+	output                       tx_reg            //serial data output
 );
 // calculates the clock cycle for baud rate
 localparam                       CYCLE = CLK_FRE * 1000000 / BAUD_RATE;
@@ -24,7 +25,7 @@ reg[2:0]                         bit_cnt;           // bit counter
 reg[7:0]                         tx_data_latch;     // latch data to send
 reg                              tx_reg;            // serial data output
 
-assign tx_pin = tx_reg;
+//assign tx_pin = tx_reg;
 
 always@(posedge clk or negedge rst_n)
 begin

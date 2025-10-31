@@ -5,6 +5,7 @@
 module miniclock
 (
     input clk,
+    input rst_n,
     output pulsex
 );
 
@@ -14,8 +15,13 @@ localparam WAIT_TIME = CPU_CLOCK / 20;  // Desired frequency * 2
 reg [32:0] clockCounter = 0;
 reg clockx = 1;
 
-always @(posedge clk) begin
-    if (clockCounter >= WAIT_TIME) begin
+always @(posedge clk or negedge rst_n) begin
+
+    if(rst_n == 1'b0)
+		begin
+			clockx <= 1'b1;
+		end
+	else if (clockCounter >= WAIT_TIME) begin
         clockCounter <= 0;
         clockx = ~clockx;
         end
