@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+cpu.json
+cpu_pnr.json
+
 # C extensions
 *.so
 
