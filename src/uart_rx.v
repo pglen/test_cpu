@@ -1,17 +1,23 @@
+//
+// Study for Tang Nano
+//      by Peter Glen on Fri 31.Oct.2025
+//
+//  Fri 31.Oct.2025     --  doc started
+//
 // Receive module
+//
 
 module uart_rx
 #(
-	parameter CLK_FRE = 50,                        //clock frequency(Mhz)
-	parameter BAUD_RATE = 115200                   //serial baud rate
+	parameter CLK_FRE = 27,                        // clock frequency (Mhz)
+	parameter BAUD_RATE = 115200                   // serial baud rate
 )
 (
-	input                        clk,              //clock input
-	input                        rst_n,            //asynchronous reset input, low active
-	output reg[7:0]              rx_data,          //received serial data
-	output reg                   rx_data_valid,    //received serial data is valid
-	input                        rx_data_ready,    //data receiver module ready
-	input                        rx_pin,            //serial data input
+	input                        clk,              // clock input
+	input                        rst_n,            // reset input, active low
+	output reg[7:0]              rx_data,          // received serial data
+	output reg                   rx_data_valid,    // received serial data is valid
+	input                        rx_pin,           // serial data physical input
     output reg                   led_out
 );
 
@@ -36,7 +42,6 @@ reg[15:0]                        cycle_cnt;        // baud counter
 reg[2:0]                         bit_cnt;          // bit counter
 
 assign rx_negedge = rx_d1 && ~rx_d0;
-//assign led = rx_data_valid;
 
 always@(posedge clk or negedge rst_n)
 begin
@@ -74,20 +79,17 @@ begin
 			else
 				next_state <= S_START;
 		S_REC_BYTE:
-			if(cycle_cnt == CYCLE - 1  && bit_cnt == 3'd7)  //receive 8bit data
+			if(cycle_cnt == CYCLE - 1  && bit_cnt == 3'd7)  // receive 8bit data
 				next_state <= S_STOP;
 			else
 				next_state <= S_REC_BYTE;
 		S_STOP:
-			if(cycle_cnt == CYCLE/2 - 1)//half bit cycle,to avoid missing the next byte receiver
+			if(cycle_cnt == CYCLE/2 - 1)// half bit cycle,to avoid missing the next byte receiver
 				next_state <= S_DATA;
 			else
 				next_state <= S_STOP;
 		S_DATA:
-			if(rx_data_ready)    //data receive complete
-				next_state <= S_IDLE;
-			else
-				next_state <= S_DATA;
+                next_state <= S_IDLE;
 		default:
 			next_state <= S_IDLE;
 	endcase
@@ -103,7 +105,7 @@ begin
 		rx_data_valid <= 1'b1;
         led_out <= 1'b1;
         end
-	else if(state == S_DATA && rx_data_ready) begin
+	else if(state == S_DATA) begin
 		rx_data_valid <= 1'b0;
         led_out <= 1'b0;
         end
@@ -135,7 +137,6 @@ begin
 		bit_cnt <= 3'd0;
 end
 
-
 always@(posedge clk or negedge rst_n)
 begin
 	if(rst_n == 1'b0)
@@ -156,3 +157,5 @@ begin
 		rx_bits <= rx_bits;
 end
 endmodule
+
+// EOF

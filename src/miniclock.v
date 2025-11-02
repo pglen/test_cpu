@@ -2,15 +2,18 @@
 
 // This will wiggle pulsex line with 10 Hz
 
+localparam CPU_CLOCK     = 27_000_000;      // This is board specific
+localparam DEF_WAIT_TIME = CPU_CLOCK / 20;  // Desired frequency * 2
+
 module miniclock
+#(
+	parameter WAIT_TIME = DEF_WAIT_TIME
+)
 (
     input clk,
     input rst_n,
     output pulsex
 );
-
-localparam CPU_CLOCK = 27_000_000;      // This is board specific
-localparam WAIT_TIME = CPU_CLOCK / 20;  // Desired frequency * 2
 
 reg [32:0] clockCounter = 0;
 reg clockx = 1;
@@ -33,3 +36,5 @@ end
 assign pulsex = clockx;
 
 endmodule
+
+// EOF

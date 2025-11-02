@@ -63,6 +63,32 @@ building blocks that can be useful in any project.
 
  Creating a new FPGA fabric can be as simple as typing 'make'
 
+## MCPU specifics
+
+   The MCPU as the name suggests, is a memory based CPU. Breaking with
+tradition, it has no registers. Every operation is memory to memory.
+The initial version is 32 bit memory contents.
+
+Minimal instruction set to test the concept:  mov add sub
+
+mov direct:
+direct          -------- -------- -------- --------
+target          -------- -------- -------- --------
+
+mov mem to mem:
+source          -------- -------- -------- --------
+target          -------- -------- -------- --------
+
+add direct:
+direct          -------- -------- -------- --------
+target          -------- -------- -------- --------
+
+add mem to mem:
+source          -------- -------- -------- --------
+target          -------- -------- -------- --------
+
+
+
 ## Copying:
 
  This code is declared open source.
